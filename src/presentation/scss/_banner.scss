@@ -21,15 +21,20 @@
       justify-content: space-between;
       padding-top: 20px;
       button{
+        font-weight: 400;
+        text-decoration: none ;
         background-color: transparent;
-        font-size: 16px;
-        text-decoration: none;
-        padding: 14px 50px;
+        font-size: 16pt;
+        //text-decoration: none;
+        padding: 10px 30px;
         text-align: center;
         display: inline-block;
-        border: 3px globals.$sky-blue  solid;
+        border:2px globals.$sky-blue  solid;
         border-radius: 10px;
-
+        &.blue{
+          color: white;
+          background-color: globals.$sky-blue;
+        }
       }
     }
   }
