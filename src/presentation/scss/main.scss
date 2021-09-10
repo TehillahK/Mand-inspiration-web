@@ -22,13 +22,22 @@ body{
 
 .container{
   display: grid;
-  padding: 20px;
+ // justify-content: center;
+  padding-top: 20px;
+  padding-left: 80px;
 
   .services{
     width: 850px;
     h1{
-      font-weight: 500;
+      font-weight: 400;
       font-size: 16pt;
+      color: #87A1B6;
+      text-transform: uppercase;
+    }
+    h2{
+      font-weight: 700;
+      font-size: 32pt;
+      color: #16133E;
     }
     .text{
       margin-top: 30px;
