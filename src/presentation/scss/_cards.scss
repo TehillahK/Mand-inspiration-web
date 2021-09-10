@@ -1,0 +1,19 @@
+$col-length:auto;
+$gap:50px;
+.home-cards{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: $col-length $col-length;
+  grid-column-gap: $gap;
+  .card{
+    display: grid;
+    grid-template-columns: 50px 300px;
+    grid-column-gap: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .card-image{
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+  }
+}

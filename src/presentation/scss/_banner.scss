@@ -1,0 +1,45 @@
+@use "globals";
+.banner{
+  grid-column-gap: 290px;
+  grid-template-columns: 400px 300px;
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    h1{
+      font-size: 36pt;
+      font-weight:normal;
+      color: #16133E;
+    }
+    p{
+      margin-bottom: 50px;
+      color: #5A7184;
+    }
+    .buttons{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top: 20px;
+      button{
+        font-family: globals.$roboto;
+        background-color: transparent;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 14px 50px;
+        text-align: center;
+        display: inline-block;
+        border: 3px globals.$sky-blue  solid;
+        border-radius: 10px;
+
+      }
+    }
+  }
+  img{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+}
