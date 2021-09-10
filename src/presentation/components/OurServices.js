@@ -3,10 +3,10 @@ import React, {useCallback, useMemo} from "react";
 
 function Description() {
     return(
-        <div>
+        <div className={"services"}>
             <h1>Our Services</h1>
             <h2>Who are we?</h2>
-            <p>We are a writing service provider that gives publishing guidelines i.e consulting, editing, mentoring,
+            <p className={"text"}>We are a writing service provider that gives publishing guidelines i.e consulting, editing, mentoring,
                 self-publishing guide, publish with us etc to individuals and organizations around the world.</p>
         </div>
     )
