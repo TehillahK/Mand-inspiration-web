@@ -3,7 +3,6 @@ import Logo from '../assets/logo.png'
 const Navbar = () => {
     return(
         <header>
-
             <nav className={"flex nav-jc-sb"}>
                 <Link className={"nav-logo"} to={'/'}>
                     <img src={Logo} alt={"Company logo"} />

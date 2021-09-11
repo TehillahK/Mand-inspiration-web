@@ -15,7 +15,7 @@ function App() {
             </Route>
 
             <Route path="/services">
-                <Services />
+                <Services services={services} />
             </Route>
         </Switch>
     </Router>
