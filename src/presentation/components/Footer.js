@@ -5,7 +5,7 @@ const Footer = () => {
       <footer className={"container"}>
           <div className={"bottom-nav"}>
               <h3>Navigation</h3>
-              <ul className={"nav-jc-c"}>
+              <ul>
                   <li>
                       <Link to={"/"}>Books</Link>
                   </li>
@@ -21,9 +21,10 @@ const Footer = () => {
                   </li>
               </ul>
           </div>
-          <div>
-              <p>Copyright (c) 2021 Mandi Inspiration</p>
-              <p>All Rights Reserved</p>
+          <div className={"credits"}>
+              <div className={"copy-right"}>
+                <p>Copyright (c) 2021 Mandi Inspiration<br/> All Rights Reserved</p>
+              </div>
           </div>
       </footer>
   )

@@ -108,6 +108,46 @@ nav .toggle span {
   color: red;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #170C3FFF;
+  color: white;
+}
+footer .bottom-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+footer .bottom-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16pt;
+}
+footer .bottom-nav a:hover {
+  text-shadow: 2px 2px red;
+}
+footer h3 {
+  margin-left: 35px;
+  font-size: 20pt;
+}
+footer ul {
+  font-size: 16pt;
+  list-style: none;
+}
+footer .credits {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+footer .credits .copy-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: end;
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;

@@ -1,0 +1,42 @@
+@use 'globals';
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: globals.$footer-color;
+  color: white;
+  .bottom-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    a{
+      color:white;
+      text-decoration: none;
+      font-size: 16pt;
+    }
+    a:hover{
+      text-shadow: 2px 2px red;
+    }
+  }
+  h3{
+    margin-left: 35px;
+    font-size: 20pt;
+  }
+  ul{
+
+    font-size: 16pt;
+    list-style: none;
+  }
+  .credits{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 20px;
+    .copy-right{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      text-align: end;
+    }
+  }
+}
