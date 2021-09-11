@@ -119,17 +119,16 @@ footer .bottom-nav {
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
+  line-height: 40px;
 }
 footer .bottom-nav a {
   color: white;
   text-decoration: none;
   font-size: 16pt;
-}
-footer .bottom-nav a:hover {
-  text-shadow: 2px 2px red;
+  font-weight: 400;
 }
 footer h3 {
-  margin-left: 35px;
+  line-height: 0;
   font-size: 20pt;
 }
 footer ul {
@@ -142,6 +141,7 @@ footer .credits {
   margin-right: 20px;
 }
 footer .credits .copy-right {
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

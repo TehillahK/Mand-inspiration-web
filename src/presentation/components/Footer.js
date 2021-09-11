@@ -5,21 +5,10 @@ const Footer = () => {
       <footer className={"container"}>
           <div className={"bottom-nav"}>
               <h3>Navigation</h3>
-              <ul>
-                  <li>
-                      <Link to={"/"}>Books</Link>
-                  </li>
-                  <li>
-                      <Link to={"/services"}>Our Services</Link>
-                  </li>
-                  <li>
-                      <Link to={""}>About Us</Link>
-                  </li>
-
-                  <li>
-                      <Link to={""}>Contact Us</Link>
-                  </li>
-              </ul>
+                <Link to={"/"}>Books</Link>
+                <Link to={"/services"}>Our Services</Link>
+                <Link to={""}>About Us</Link>
+                <Link to={""}>Contact Us</Link>
           </div>
           <div className={"credits"}>
               <div className={"copy-right"}>
