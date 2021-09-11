@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+nav {
+  display: flex;
+  font-weight: 500;
+  padding-left: 80px;
+  padding-top: 0px;
+}
+nav .nav-logo {
+  margin-right: 80px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 40px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: red;
+}
+nav .toggle span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #2d314d;
+  transition: all 300ms ease-in-out;
+  transform-origin: 3px 1px;
+  margin-bottom: 5px;
+}
+
+.blue {
+  background-color: #007FFC;
+}
+
+.banner {
+  grid-column-gap: 290px;
+  grid-template-columns: 400px 300px;
+}
+.banner .info {
+  display: flex;
+  flex-direction: column;
+}
+.banner .info h1 {
+  font-size: 36pt;
+  font-weight: normal;
+  color: #16133E;
+}
+.banner .info p {
+  margin-bottom: 50px;
+  color: #5A7184;
+}
+.banner .info .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.banner .info .buttons button {
+  font-weight: 400;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 16pt;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  border: 2px #007FFC solid;
+  border-radius: 10px;
+}
+.banner .info .buttons button.blue {
+  color: white;
+  background-color: #007FFC;
+}
+.banner img {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.home-cards {
+  padding: 10px;
+  width: 850px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+}
+.home-cards .card {
+  display: grid;
+  grid-template-columns: 50px 300px;
+  grid-column-gap: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.home-cards .card .card-image {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.home-cards .card a {
+  color: black;
+  text-decoration: none;
+}
+.home-cards .card a:hover {
+  color: red;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: white;
+  font-family: "Roboto", sans-serif, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: grid;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+.container .services h1 {
+  font-weight: 400;
+  font-size: 16pt;
+  color: #87A1B6;
+  text-transform: uppercase;
+}
+.container .services h2 {
+  font-weight: 700;
+  font-size: 32pt;
+  color: #16133E;
+}
+.container .services .text {
+  padding-right: 50px;
+  font-weight: 500;
+  font-size: 19pt;
+  color: #5A7184;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/*# sourceMappingURL=main.css.map */
