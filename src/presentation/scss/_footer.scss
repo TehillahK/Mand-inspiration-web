@@ -1,8 +1,10 @@
 @use 'globals';
 footer{
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   background-color: globals.$footer-color;
+  background-repeat: no-repeat;
   color: white;
   .bottom-nav{
     display: flex;
@@ -31,7 +33,7 @@ footer{
   .credits{
     display: flex;
     justify-content:flex-end;
-    margin-right: 20px;
+    margin-right: 10px;
     .copy-right{
       font-weight: 400;
       display: flex;

@@ -1,0 +1,13 @@
+@use "globals";
+.blue-button{
+  color: white;
+  font-weight: 400;
+  text-decoration: none ;
+  background-color: globals.$sky-blue;
+  font-size: 16pt;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  border:2px globals.$sky-blue  solid;
+  border-radius: 10px;
+}

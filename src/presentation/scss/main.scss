@@ -3,7 +3,7 @@
 @forward "banner";
 @forward "cards";
 @forward "footer";
-
+@forward "buttons";
 html{
   font-size: 100%;
   box-sizing: border-box;
@@ -23,6 +23,7 @@ body{
 .container{
   display: grid;
  // justify-content: center;
+
   padding-top: 20px;
   padding-left: 80px;
 
@@ -50,6 +51,27 @@ body{
   }
 }
 
+.grid{
+  display: grid;
+  width:88.2%;
+  &.two-cols{
+    padding-left: 20px;
+  }
+}
+.two-cols{
+  grid-template-columns: 671px 671px;
+  grid-column-gap: 10px;
+}
 
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  flex-direction: column;
+}
+.center{
 
-
+ justify-content: center;
+  //margin: auto;
+}

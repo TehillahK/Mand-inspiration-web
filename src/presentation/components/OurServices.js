@@ -11,11 +11,11 @@ function Description() {
         </div>
     )
 }
-function  Card(props){
+function Card(props){
     const service = props.service;
     return(
         <div className={"card"}>
-            <img className={"card-image"} src={""} alt={"service card picture"} />
+            <img className={"card-image"} src={service.imageUrl} alt={"service card picture"} />
             <div className={"card-text"}>
                 <h3>{service.name}</h3>
                 <p>{service.description}</p>
