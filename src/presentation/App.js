@@ -1,5 +1,5 @@
-import './scss/main.scss'
-import Navbar from "./components/Navbar";
+import './dist/css/main.css'
+
 import Home from "./pages/Home";
 function App() {
   return (
