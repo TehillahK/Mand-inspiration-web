@@ -6,7 +6,7 @@ const Portfolio = () => {
       <div className={"flex flex-column"}>
           <h1>Get your word out there</h1>
           <p>Our portfolio includes these titles and many more</p>
-          <div className={"grid two-cols"}>
+          <div className={"books-home grid two-cols"}>
               <img style={{height:"671px",width:"508px"}} src={Book1} alt={'20 at 60 by Mandipa Shumba book cover'}/>
               <img src={Book2} alt={'Legends with dreams by Mandipa Shumba book cover'} />
           </div>
