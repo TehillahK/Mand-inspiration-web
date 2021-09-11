@@ -7,8 +7,8 @@ const Portfolio = () => {
           <h1>Get your word out there</h1>
           <p>Our portfolio includes these titles and many more</p>
           <div className={"grid two-cols"}>
-              <img style={{height:"671px",width:"508px"}} src={Book1} />
-              <img src={Book2} />
+              <img style={{height:"671px",width:"508px"}} src={Book1} alt={'20 at 60 by Mandipa Shumba book cover'}/>
+              <img src={Book2} alt={'Legends with dreams by Mandipa Shumba book cover'} />
           </div>
           <div style={{marginTop:"100px"}} className={"grid center"}>
               <Link className={"blue-button"} to={'/'}>Learn More</Link>
