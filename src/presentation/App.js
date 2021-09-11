@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Services from "./pages/Services";
 import {getServices} from "../logic/AccessServices";
+import Footer from "./components/Footer";
 function App() {
     const services=getServices();
   return (
@@ -18,6 +19,7 @@ function App() {
                 <Services services={services} />
             </Route>
         </Switch>
+        <Footer />
     </Router>
   );
 }
