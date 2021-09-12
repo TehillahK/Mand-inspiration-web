@@ -7,7 +7,7 @@ const Home = (props) => {
     const services=props.services ;
 
     return(
-        <section className={"container"}>
+        <section>
             <HomeBanner photoUrl={MandiPhoto} />
             <OurServices services={services} />
             <Portfolio />

@@ -4,8 +4,8 @@ function InfoBox() {
             <h1>Mandi Inspirations</h1>
             <p>Only you can do it</p>
             <div className={"buttons"}>
-                <button className={"blue"}>Our Services</button>
-                <button>Learn More</button>
+                <button className={"blue-button"}>Our Services</button>
+                <button className={"white-button"}>Learn More</button>
             </div>
         </div>
     )

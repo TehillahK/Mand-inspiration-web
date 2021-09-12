@@ -33,7 +33,7 @@ nav .toggle span {
 }
 
 .blue {
-  background-color: #007FFC;
+  background-color: #2e95fa;
 }
 
 .banner {
@@ -58,21 +58,6 @@ nav .toggle span {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 20px;
-}
-.banner .info .buttons button {
-  font-weight: 400;
-  text-decoration: none;
-  background-color: transparent;
-  font-size: 16pt;
-  padding: 10px 30px;
-  text-align: center;
-  display: inline-block;
-  border: 2px #007FFC solid;
-  border-radius: 10px;
-}
-.banner .info .buttons button.blue {
-  color: white;
-  background-color: #007FFC;
 }
 .banner img {
   display: flex;
@@ -162,13 +147,38 @@ footer .credits .copy-right {
   color: white;
   font-weight: 400;
   text-decoration: none;
-  background-color: #007FFC;
+  background-color: #2e95fa;
   font-size: 16pt;
   padding: 10px 30px;
   text-align: center;
   display: inline-block;
-  border: 2px #007FFC solid;
+  border: 2px #2e95fa solid;
   border-radius: 10px;
+}
+
+.white-button {
+  color: #2e95fa;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 16pt;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  border: 2px #2e95fa solid;
+  border-radius: 10px;
+}
+
+.sub-title {
+  font-weight: 400;
+  font-size: 16pt;
+  color: #87A1B6;
+  text-transform: uppercase;
+}
+
+.special-title {
+  font-family: "Times New Roman", serif;
+  font-size: 32pt;
 }
 
 html {
@@ -192,12 +202,6 @@ body {
   display: grid;
   padding-top: 20px;
   padding-left: 80px;
-}
-.container .services h1 {
-  font-weight: 400;
-  font-size: 16pt;
-  color: #87A1B6;
-  text-transform: uppercase;
 }
 .container .services h2 {
   font-weight: 700;

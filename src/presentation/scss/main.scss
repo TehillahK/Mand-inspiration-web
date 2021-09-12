@@ -4,6 +4,7 @@
 @forward "cards";
 @forward "footer";
 @forward "buttons";
+@forward "typography";
 html{
   font-size: 100%;
   box-sizing: border-box;
@@ -29,12 +30,7 @@ body{
 
   .services{
     //width: 850px;
-    h1{
-      font-weight: 400;
-      font-size: 16pt;
-      color: #87A1B6;
-      text-transform: uppercase;
-    }
+
     h2{
       font-weight: 700;
       font-size: 32pt;
