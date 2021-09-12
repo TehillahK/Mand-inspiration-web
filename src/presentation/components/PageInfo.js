@@ -28,7 +28,7 @@ function Hours(){
 
 const PageInfo = () => {
   return(
-      <div>
+      <div className={"grid"}>
           <CompanyIdentity />
           <OurMission />
           <Hours />

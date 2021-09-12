@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import {getServices} from "../logic/AccessServices";
 import Footer from "./components/Footer";
 import About from "./pages/About";
+import Books from "./pages/Books";
 function App() {
     const services=getServices();
   return (
@@ -17,6 +18,9 @@ function App() {
             </Route>
             <Route exact path="/about">
                 <About />
+            </Route>
+            <Route exact path="/book-store">
+                <Books />
             </Route>
 
 

@@ -38,9 +38,9 @@ const books=[
         amazonLink:'',
         etsyLink:'',
 
-    },
+    }
 ]
 
-export async function getBooks() {
+export function getBooks() {
     return books;
 }

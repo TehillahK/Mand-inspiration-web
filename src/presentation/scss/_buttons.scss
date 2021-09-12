@@ -1,10 +1,14 @@
 @use "globals";
+$button-width:190px;
+$button-height:60px;
 .blue-button{
   color: white;
   font-weight: 400;
+ // width: $button-width;
+ // height:$button-height;
   text-decoration: none ;
   background-color: globals.$sky-blue;
-  font-size: 16pt;
+  font-size: 14pt;
   padding: 10px 30px;
   text-align: center;
   display: inline-block;
@@ -17,9 +21,11 @@
 .white-button{
   color: globals.$sky-blue;
   font-weight: 400;
+ // width: $button-width;
+ // height:$button-height;
   text-decoration: none ;
   background-color: transparent;
-  font-size: 16pt;
+  font-size: 14pt;
   padding: 10px 30px;
   text-align: center;
   display: inline-block;
@@ -27,6 +33,6 @@
   border-radius: 10px;
 }
 .buttons{
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
+ // flex-direction: row;
 }

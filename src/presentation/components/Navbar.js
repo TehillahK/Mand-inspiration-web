@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
                     <li>
-                        <Link to={""}>Books</Link>
+                        <Link to={"/book-store"}>Books</Link>
                     </li>
 
                     <li>

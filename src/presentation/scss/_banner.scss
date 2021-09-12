@@ -26,3 +26,11 @@
   }
 
 }
+
+.page-cover{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
