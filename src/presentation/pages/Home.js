@@ -7,11 +7,11 @@ const Home = (props) => {
     const services=props.services ;
 
     return(
-        <section>
+        <main>
             <HomeBanner photoUrl={MandiPhoto} />
             <OurServices services={services} />
             <Portfolio />
-        </section>
+        </main>
     )
 }
 

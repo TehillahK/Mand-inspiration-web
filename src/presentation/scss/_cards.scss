@@ -37,3 +37,21 @@ $gap:50px;
     }
   }
 }
+
+.menu-card{
+  display: grid;
+  grid-template-columns: 550px 200px;
+  grid-column-gap:300px;
+  margin-bottom: 100px;
+  .card-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-right: 30px;
+  }
+  img{
+   // justify-content: right;
+    width: 200px;
+    height: 300px;
+  }
+}

@@ -26,3 +26,7 @@
   border:2px globals.$sky-blue  solid;
   border-radius: 10px;
 }
+.buttons{
+  display: flex;
+  flex-direction: row;
+}

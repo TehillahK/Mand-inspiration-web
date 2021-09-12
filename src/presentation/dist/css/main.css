@@ -53,12 +53,6 @@ nav .toggle span {
   margin-bottom: 50px;
   color: #5A7184;
 }
-.banner .info .buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 20px;
-}
 .banner img {
   display: flex;
   flex-direction: column;
@@ -99,6 +93,23 @@ nav .toggle span {
 }
 .home-cards .card a:hover {
   color: red;
+}
+
+.menu-card {
+  display: grid;
+  grid-template-columns: 550px 200px;
+  grid-column-gap: 300px;
+  margin-bottom: 100px;
+}
+.menu-card .card-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-right: 30px;
+}
+.menu-card img {
+  width: 200px;
+  height: 300px;
 }
 
 footer {
@@ -169,6 +180,17 @@ footer .credits .copy-right {
   border-radius: 10px;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32pt;
+  color: #16133E;
+}
+
 .sub-title {
   font-weight: 400;
   font-size: 16pt;
@@ -232,7 +254,6 @@ body {
 
 .flex {
   display: flex;
-  flex-direction: row;
 }
 
 .flex-column {
