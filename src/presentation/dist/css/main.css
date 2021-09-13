@@ -36,6 +36,16 @@ nav .toggle span {
   background-color: #2e95fa;
 }
 
+@media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .banner {
   grid-column-gap: 290px;
   grid-template-columns: 400px 300px;
