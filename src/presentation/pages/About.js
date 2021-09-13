@@ -1,10 +1,11 @@
 import PageInfo from "../components/PageInfo";
-import AboutBanner from "../components/AboutBanner";
+import GeneralBanner from "../components/GeneralBanner";
+import AboutPic from '../assets/about-us.jpg'
 
 const About = () => {
   return(
       <main className={"container"}>
-          <AboutBanner />
+          <GeneralBanner section={'About Us'} photoUrl={AboutPic} />
           <PageInfo />
       </main>
   )

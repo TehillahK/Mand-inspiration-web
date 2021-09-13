@@ -1,5 +1,5 @@
 import {getBooks} from "../../logic/AccessBooks";
-import {Link} from "react-router-dom";
+
 
 function BookCard(props) {
     const book=props.book;
@@ -14,7 +14,7 @@ function BookCard(props) {
                     <a className={"blue-button"} href={book.etsyLink}>Etsy</a>
                 </div>
             </div>
-            <img src={cover} />
+            <img src={cover} alt={''} />
         </div>
     )
 }

@@ -14,7 +14,7 @@ function InfoBox() {
 
 const HomeBanner = (props) => {
     return(
-        <div className={"container banner"}>
+        <div className={"flex banner"}>
             <InfoBox />
             <img src={props.photoUrl} alt={"Mandipa Shumba"} />
         </div>

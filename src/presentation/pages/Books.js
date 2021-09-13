@@ -1,10 +1,10 @@
 import BookList from "../components/BookList";
-import BookBanner from "../components/BookBanner";
+import GeneralBanner from "../components/GeneralBanner";
 
 const Books = () => {
     return(
         <main className={"container"}>
-            <BookBanner />
+            <GeneralBanner section={'Portfolio'} title={'Our Books'} text={'Here is a showcase of all the works published by Mandi Inspiration.'} />
             <BookList />
         </main>
     )

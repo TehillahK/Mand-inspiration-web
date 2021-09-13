@@ -20,7 +20,7 @@ function Content() {
 }
 const Portfolio = () => {
   return(
-      <div className={"container"}>
+      <div>
           <Content />
       </div>
   )

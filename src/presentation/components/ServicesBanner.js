@@ -43,13 +43,10 @@ function Cards(props) {
 const ServicesBanner = () => {
     const services  = getServices();
   return(
-      <div>
-          <h1 className={"sub-title"}>Our Services</h1>
-          <h2 className={"title"}>Services</h2>
-          <div className={"container"}>
-              <Cards services={services} />
-          </div>
+      <div className={"container"}>
+          <Cards services={services} />
       </div>
+
   )
 
 }
