@@ -1,10 +1,10 @@
-import {Link} from "react-router-dom";
-import Logo from '../assets/logo.png'
+import { Link } from "react-router-dom";
+import Logo from "../assets/logo.png";
 const Navbar = () => {
-    return(
+    return (
         <header>
-            <nav className={"flex nav-jc-sb"}>
-                <Link className={"nav-logo"} to={'/'}>
+            <nav className={"flex"}>
+                <Link className={"nav-logo"} to={"/"}>
                     <img src={Logo} alt={"Company logo"} />
                 </Link>
                 <ul>
@@ -26,6 +26,6 @@ const Navbar = () => {
                 </ul>
             </nav>
         </header>
-    )
-}
+    );
+};
 export default Navbar;
