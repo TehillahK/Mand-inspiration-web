@@ -1,11 +1,14 @@
+import {Link} from "react-router-dom";
+
 function InfoBox() {
     return(
-        <div className={"info"}>
+        <div className={"flex flex-column center space-between"} >
+
             <h1>Mandi Inspirations</h1>
             <p>Only you can do it</p>
             <div className={"buttons"}>
-                <button className={"blue-button"}>Our Services</button>
-                <button className={"white-button"}>Learn More</button>
+                <Link to={"/services"}  className={"blue-button"}>Our Services</Link>
+                <Link to={"/about"} className={"white-button"}>Learn More</Link>
             </div>
         </div>
     )
@@ -14,9 +17,9 @@ function InfoBox() {
 
 const HomeBanner = (props) => {
     return(
-        <div className={"flex banner"}>
+        <div className={"flex flex-row "}>
             <InfoBox />
-            <img src={props.photoUrl} alt={"Mandipa Shumba"} />
+            <img className={" home-image"} src={props.photoUrl} alt={"Mandipa Shumba"}  />
         </div>
     )
 }

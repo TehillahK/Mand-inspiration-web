@@ -5,6 +5,7 @@
 @forward "footer";
 @forward "buttons";
 @forward "typography";
+@forward "shapes";
 html{
   font-size: 100%;
   box-sizing: border-box;
@@ -59,6 +60,9 @@ body{
 .flex-column{
   flex-direction: column;
 }
+.flex-row{
+  flex-direction: row;
+}
 .center{
 
  justify-content: center;
@@ -67,4 +71,14 @@ body{
 
 .books-home{
   margin-top: 80px;
+
+}
+
+.space-between{
+ h1{
+   margin-bottom: 2rem;
+ }
+  p{
+    margin-bottom: 5rem;
+  }
 }

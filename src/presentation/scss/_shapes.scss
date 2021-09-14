@@ -1,0 +1,10 @@
+@use "globals";
+.rounded-rectangle{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: globals.$light-blue;
+  border-radius: 1rem;
+  h2{
+    font-size: 16pt;
+  }
+}

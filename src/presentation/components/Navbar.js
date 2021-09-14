@@ -7,30 +7,24 @@ const Navbar = () => {
                 <Link className={"nav-logo"} to={'/'}>
                     <img src={Logo} alt={"Company logo"} />
                 </Link>
-                <ul className={"nav-jc-c"}>
+                <ul>
                     <li>
                         <Link to={"/"}>Home</Link>
                     </li>
                     <li>
                         <Link to={"/about"}>About</Link>
                     </li>
-
-
                     <li>
                         <Link to={"/book-store"}>Books</Link>
                     </li>
-
                     <li>
                         <Link to={"/services"}>Our Services</Link>
                     </li>
-
                     <li>
                         <Link to={"/contact-us"}>Contact us</Link>
                     </li>
                 </ul>
-
             </nav>
-
         </header>
     )
 }

@@ -63,13 +63,6 @@ nav .toggle span {
   margin-bottom: 50px;
   color: #5A7184;
 }
-.banner img {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
-}
 
 .page-cover {
   display: flex;
@@ -77,6 +70,15 @@ nav .toggle span {
   width: 600px;
   height: 300px;
   object-fit: cover;
+}
+
+.home-image {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin-left: 26.4rem;
 }
 
 .home-cards {
@@ -202,6 +204,19 @@ footer .credits .copy-right {
   display: inline-flex;
 }
 
+.rounded-button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5rem;
+}
+
+.rounded-button:hover {
+  text-shadow: white;
+  background-color: hotpink;
+}
+
 .title {
   font-weight: 700;
   font-size: 32pt;
@@ -228,6 +243,28 @@ footer .credits .copy-right {
   color: #5A7184;
   margin-top: 30px;
   margin-bottom: 60px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.rounded-rectangle {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #007CFFFF;
+  border-radius: 1rem;
+}
+.rounded-rectangle h2 {
+  font-size: 16pt;
 }
 
 html {
@@ -279,12 +316,23 @@ body {
   flex-direction: column;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .center {
   justify-content: center;
 }
 
 .books-home {
   margin-top: 80px;
+}
+
+.space-between h1 {
+  margin-bottom: 2rem;
+}
+.space-between p {
+  margin-bottom: 5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

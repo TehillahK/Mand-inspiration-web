@@ -36,3 +36,14 @@ $button-height:60px;
   display: inline-flex;
  // flex-direction: row;
 }
+.rounded-button{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5rem;
+}
+.rounded-button:hover{
+  text-shadow: white;
+  background-color: hotpink;
+}

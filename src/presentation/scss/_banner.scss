@@ -17,13 +17,6 @@
     }
 
   }
-  img{
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-  }
 
 }
 
@@ -33,4 +26,12 @@
   width: 600px;
   height: 300px;
   object-fit: cover;
+}
+.home-image{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin-left: 26.4rem;
 }
