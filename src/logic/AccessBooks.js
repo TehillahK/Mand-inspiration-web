@@ -8,7 +8,7 @@ const books=[
         coverPic:FeelingTwentyPic,
         name:'Feeling 20 & 60',
         description:'Put description here',
-        amazonLink:'',
+        amazonLink:'http://twitter.com/saigowthamr',
         etsyLink:'',
 
     },
