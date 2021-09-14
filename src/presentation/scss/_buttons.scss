@@ -6,6 +6,7 @@ $button-height:60px;
   font-weight: 400;
  // width: $button-width;
  // height:$button-height;
+  margin-right: 1rem;
   text-decoration: none ;
   background-color: globals.$sky-blue;
   font-size: 14pt;
@@ -16,7 +17,7 @@ $button-height:60px;
   border-radius: 10px;
 }
 .blue-button:hover{
-
+  background-color: #008bfc;;
 }
 .white-button{
   color: globals.$sky-blue;
@@ -31,6 +32,11 @@ $button-height:60px;
   display: inline-block;
   border:2px globals.$sky-blue  solid;
   border-radius: 10px;
+}
+
+.white-button:hover{
+  color: hotpink;
+  //background-color: globals.$sky-blue;
 }
 .buttons{
   display: inline-flex;

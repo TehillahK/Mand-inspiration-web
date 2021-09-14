@@ -50,7 +50,7 @@ nav .toggle span {
 }
 
 .blue {
-  background-color: #2e95fa;
+  background-color: #007FFC;
 }
 
 @media only screen and (max-width: 600px) {
@@ -181,18 +181,23 @@ footer .credits .copy-right {
 .blue-button {
   color: white;
   font-weight: 400;
+  margin-right: 1rem;
   text-decoration: none;
-  background-color: #2e95fa;
+  background-color: #007FFC;
   font-size: 14pt;
   padding: 10px 30px;
   text-align: center;
   display: inline-block;
-  border: 2px #2e95fa solid;
+  border: 2px #007FFC solid;
   border-radius: 10px;
 }
 
+.blue-button:hover {
+  background-color: #008bfc;
+}
+
 .white-button {
-  color: #2e95fa;
+  color: #007FFC;
   font-weight: 400;
   text-decoration: none;
   background-color: transparent;
@@ -200,8 +205,12 @@ footer .credits .copy-right {
   padding: 10px 30px;
   text-align: center;
   display: inline-block;
-  border: 2px #2e95fa solid;
+  border: 2px #007FFC solid;
   border-radius: 10px;
+}
+
+.white-button:hover {
+  color: hotpink;
 }
 
 .buttons {
