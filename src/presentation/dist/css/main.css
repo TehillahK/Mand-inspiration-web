@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: white;
+  font-family: "Roboto", sans-serif, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 nav {
   display: flex;
   font-weight: 500;
@@ -49,19 +66,6 @@ nav .toggle span {
 .banner {
   grid-column-gap: 290px;
   grid-template-columns: 400px 300px;
-}
-.banner .info {
-  display: flex;
-  flex-direction: column;
-}
-.banner .info h1 {
-  font-size: 36pt;
-  font-weight: normal;
-  color: #16133E;
-}
-.banner .info p {
-  margin-bottom: 50px;
-  color: #5A7184;
 }
 
 .page-cover {
@@ -265,23 +269,6 @@ footer .credits .copy-right {
 }
 .rounded-rectangle h2 {
   font-size: 16pt;
-}
-
-html {
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background-color: white;
-  font-family: "Roboto", sans-serif, sans-serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 .container {
