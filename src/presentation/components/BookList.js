@@ -40,9 +40,8 @@ function BookCard(props) {
         </div>
     );
 }
-const BookList = () => {
-    console.log(getBooks());
-    const books = getBooks();
+const BookList = (props) => {
+    const books = props.books;
     return (
         <div>
             {books.map((book) => (

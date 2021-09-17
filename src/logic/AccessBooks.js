@@ -41,6 +41,7 @@ const books=[
     }
 ]
 
-export function getBooks() {
+export async function getBooks() {
+   // console.log(books);
     return books;
 }
