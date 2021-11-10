@@ -5,20 +5,20 @@ import { Link } from "react-router-dom";
 function Card(props) {
     const service = props.service;
     return (
-        <div className={"menu-card"}>
-            <div className={"card-text"}>
+        <div className={"d-flex flex-row justify-content-between shadow mb-5 bg-body rounded"}>
+            <div className={"d-flex flex-column justify-content-center  p-3 "}>
                 <h3>{service.name}</h3>
                 <p>{service.description}</p>
                 <div className={"buttons"}>
-                    <Link className={"blue-button"} to={"/"}>
+                    <Link className={"btn btn-primary"} to={"/"}>
                         Publishing
                     </Link>
-                    <Link className={"white-button"} to={"/"}>
+                    <Link className={"ms-1 btn btn-outline-primary"} to={"/"}>
                         Book consultation
                     </Link>
                 </div>
             </div>
-            <img src={service.menuImg} alt={""} />
+            <img src={service.menuImg} alt={""} style={{width:"10rem",height:"25rem",objectFit:"cover"}} />
         </div>
     );
 }
