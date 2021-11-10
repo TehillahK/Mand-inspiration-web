@@ -39,6 +39,15 @@ nav a {
   text-decoration: none;
 }
 
+.genre {
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  border: 1px solid #5A7184;
+  font-size: small;
+}
+
 footer {
   margin-top: 100px;
   display: flex;
@@ -136,6 +145,16 @@ footer .credits .copy-right {
   width: 600px;
   height: 300px;
   object-fit: cover;
+}
+
+.rounded-rectangle {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #007CFFFF;
+  border-radius: 1rem;
+}
+.rounded-rectangle h2 {
+  font-size: 16pt;
 }
 
 .home-image {

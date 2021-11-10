@@ -7,7 +7,7 @@ const BookConsultation=()=>{
                 <h2>Like what you see?</h2>
                 <h2>Book a consultation with us</h2>
                 <p>Get your word out there today</p>
-                <Link className={"rounded-button text-black"} to={"/contact-us"}>Book Consultation</Link>
+                <Link className={"btn btn-light text-black"} style={{borderRadius:"6rem"}} to={"/contact-us"}>Book Consultation</Link>
             </div>
         </div>
     )
