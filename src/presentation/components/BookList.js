@@ -38,7 +38,7 @@ function BookCard(props) {
                     </button>
                 </div>
             </div>
-            <img className="order-md-1" src={cover} alt={""} style={{width:"25rem",height:"37.5rem"}} />
+            <img className="order-md-1" src={cover} alt={""} style={{width:"12.5rem",height:"18.5rem"}} />
         </div>
     );
 }

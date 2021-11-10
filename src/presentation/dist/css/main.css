@@ -123,6 +123,19 @@ footer .credits .copy-right {
   color: white;
 }
 
+.banner {
+  grid-column-gap: 290px;
+  grid-template-columns: 400px 300px;
+}
+
+.page-cover {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .home-image {
   display: flex;
   flex-direction: column;
