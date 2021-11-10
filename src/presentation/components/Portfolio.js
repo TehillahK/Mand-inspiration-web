@@ -10,11 +10,13 @@ function Content() {
             <p>Our portfolio includes these titles and many more</p>
             <div className={"d-md-flex  mb-3 justify-content-between "}>
                 <img
+                    className="img-fluid"
                     style={{ height: "671px", width: "508px" }}
                     src={Book1}
                     alt={"20 at 60 by Mandipa Shumba book cover"}
                 />
                 <img
+                    className="img-fluid"
                     src={Book2}
                     alt={"Legends with dreams by Mandipa Shumba book cover"}
                 />
