@@ -26,7 +26,7 @@ const HomeBanner = (props) => {
         <div className={"d-md-flex flex-row mb-3 justify-content-between "}>
             <InfoBox />
             <img
-                className="home-image"
+                className=" home-image "
                 src={props.photoUrl}
                 alt={"Mandipa Shumba"}
                 style={{marginTop:"1rem"}}
