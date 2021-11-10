@@ -4,11 +4,11 @@ import Book2 from "../assets/books/lwd.jpeg";
 
 function Content() {
     return (
-        <div className={"flex flex-column"}>
+        <div className={"d-flex flex-column justify-content-between"}>
             <h2 className={"sub-title"}>Our Portfolio</h2>
             <h3 className={"special-title"}>Get your word out there</h3>
             <p>Our portfolio includes these titles and many more</p>
-            <div className={"books-home grid two-cols"}>
+            <div className={"d-md-flex  mb-3 justify-content-between "}>
                 <img
                     style={{ height: "671px", width: "508px" }}
                     src={Book1}
@@ -19,8 +19,8 @@ function Content() {
                     alt={"Legends with dreams by Mandipa Shumba book cover"}
                 />
             </div>
-            <div style={{ marginTop: "100px" }} className={"grid center"}>
-                <Link className={"blue-button"} to={"/"}>
+            <div style={{ marginTop: "100px" }} className={"d-flex justify-content-center"}>
+                <Link className={"btn btn-primary"} to={"/"}>
                     Learn More
                 </Link>
             </div>

@@ -2,9 +2,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className={"container"}>
+        <footer className={"container-fluid "}>
+            <div className="container">
             <div className={"bottom-nav"}>
-                <h3>Navigation</h3>
+                <h3 style={{marginBottom:"1rem"}}>Navigation</h3>
                 <Link to={"/"}>Books</Link>
                 <Link to={"/services"}>Our Services</Link>
                 <Link to={""}>About Us</Link>
@@ -17,6 +18,7 @@ const Footer = () => {
                         <br /> All Rights Reserved
                     </p>
                 </div>
+            </div>
             </div>
         </footer>
     );

@@ -53,3 +53,9 @@ $button-height:60px;
   text-shadow: white;
   background-color: hotpink;
 }
+@media  only screen and (max-width: 600px) {
+  .buttons{
+    display: flex;
+    flex-direction: column;
+  }
+}

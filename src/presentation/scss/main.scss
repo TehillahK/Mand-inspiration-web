@@ -1,71 +1,16 @@
 @use "globals";
 @forward "starter";
 @forward "navbar";
-@forward "banner";
 @forward "cards";
 @forward "footer";
-@forward "buttons";
 @forward "typography";
-@forward "shapes";
-
-
-.container{
-  display: grid;
- // justify-content: center;
-
-  padding-top: 20px;
-  padding-left: 80px;
-
-  .services{
-    //width: 850px;
-
-    h2{
-      font-weight: 700;
-      font-size: 32pt;
-      color: #16133E;
-    }
-
+.home-image{
+    display: flex;
+    flex-direction: column;
+    width: 31.25rem;
+    height: 31.25rem;
+    object-fit: cover;
+    margin-right: 15rem;
   }
-}
+  
 
-.grid{
-  display: grid;
-  width:88.2%;
-  &.two-cols{
-    padding-left: 20px;
-  }
-}
-.two-cols{
-  grid-template-columns: 671px 671px;
-  grid-column-gap: 10px;
-}
-
-.flex{
-  display: flex;
-  //flex-direction: row;
-}
-.flex-column{
-  flex-direction: column;
-}
-.flex-row{
-  flex-direction: row;
-}
-.center{
-
- justify-content: center;
-  //margin: auto;
-}
-
-.books-home{
-  margin-top: 80px;
-
-}
-
-.space-between{
- h1{
-   margin-bottom: 2rem;
- }
-  p{
-    margin-bottom: 5rem;
-  }
-}

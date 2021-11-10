@@ -6,6 +6,8 @@ footer{
   background-color: globals.$footer-color;
   background-repeat: no-repeat;
   color: white;
+  padding-top: 8rem;
+  padding-bottom: 1rem;
   .bottom-nav{
     display: flex;
     flex-direction: column;

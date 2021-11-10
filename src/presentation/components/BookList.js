@@ -11,13 +11,14 @@ function BookCard(props) {
     };
 
     return (
-        <div className={"menu-card"}>
-            <div className={"card-text"}>
+        <div className={"d-flex justify-content-between shadow-lg p-3 mb-5 bg-body rounded "} style={{marginBottom:"1rem"}}>
+            <div className={" d-flex flex-column justify-content-center px-2"}>
                 <h2>{book.name}</h2>
                 <p>{book.description}</p>
                 <div className={"buttons"}>
                     <button
-                        className={"blue-button"}
+                        type="button" 
+                        className={"btn btn-primary"}
                         onClick={() => {
                             openBookPage(book.amazonLink);
                         }}
@@ -26,7 +27,8 @@ function BookCard(props) {
                         Amazon
                     </button>
                     <button
-                        className={"blue-button"}
+                        type="button" 
+                        className={"ms-1 btn btn-outline-primary"}
                         onClick={() => {
                             openBookPage(book.etsyLink);
                         }}
@@ -36,7 +38,7 @@ function BookCard(props) {
                     </button>
                 </div>
             </div>
-            <img src={cover} alt={""} />
+            <img className="order-md-1" src={cover} alt={""} style={{width:"25rem",height:"37.5rem"}} />
         </div>
     );
 }
