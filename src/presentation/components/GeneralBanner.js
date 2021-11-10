@@ -3,7 +3,7 @@ import AboutPic from "../assets/about-us.jpg";
 
 const GeneralBanner = (props) => {
     return (
-        <div>
+        <div className="container">
             <h1 className={"sub-title"}>{props.section}</h1>
             <h2 className={"title"}>{props.title}</h2>
             {props.text && <p className={"text"}>{props.text}</p>}
