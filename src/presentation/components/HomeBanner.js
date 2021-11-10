@@ -29,6 +29,7 @@ const HomeBanner = (props) => {
                 className="home-image"
                 src={props.photoUrl}
                 alt={"Mandipa Shumba"}
+                style={{marginTop:"1rem"}}
             />
         </div>
     );
