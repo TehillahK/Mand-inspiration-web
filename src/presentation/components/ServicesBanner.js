@@ -18,7 +18,7 @@ function Card(props) {
                     </Link>
                 </div>
             </div>
-            <img className="service-card-img img-fluid" src={service.menuImg} alt={""} style={{width:"9rem",height:"25rem",objectFit:"cover"}} />
+            <img className="service-card-img img-fluid" src={service.menuImg} alt={""} style={{width:"10rem",height:"25rem",objectFit:"cover"}} />
         </div>
     );
 }
