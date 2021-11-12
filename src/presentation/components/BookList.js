@@ -15,7 +15,7 @@ function BookCard(props) {
             <div className={" d-flex flex-column justify-content-center px-2"} style={{width:"512px"}}>
                 <h2>{book.name}</h2>
                 <p className="text fs-6">{book.description}</p>
-                <div className={"buttons"}>
+                <div className={"d-grid gap-2 d-md-flex "}>
                     <button
                         type="button" 
                         className={"btn btn-primary"}

@@ -9,7 +9,7 @@ function Card(props) {
             <div className={"d-flex flex-column justify-content-center  p-3 "} style={{width:"13rem"}}>
                 <h3>{service.name}</h3>
                 <p className="text fs-6">{service.description}</p>
-                <div >
+                <div className="d-grid gap-2 d-md-flex " >
                     <Link className={"btn btn-primary"} to={"/"}>
                         Publishing
                     </Link>
