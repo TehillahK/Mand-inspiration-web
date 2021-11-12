@@ -14,7 +14,7 @@ function BookCard(props) {
         <div className={"d-flex justify-content-between shadow-lg p-3 mb-5 bg-body rounded "} style={{marginBottom:"1rem"}}>
             <div className={" d-flex flex-column justify-content-center px-2"} style={{width:"512px"}}>
                 <h2>{book.name}</h2>
-                <p className="text fs-6">{book.description}</p>
+                <p className="card-text text-break  fs-6" >{book.description}</p>
                 <div className={"d-grid gap-2 d-md-flex "}>
                     <button
                         type="button" 
@@ -38,7 +38,7 @@ function BookCard(props) {
                     </button>
                 </div>
             </div>
-            <img className="order-md-1" src={cover} alt={""} style={{width:"12.5rem",height:"18.5rem"}} />
+            <img className="order-md-1" src={cover} alt={""} style={{width:"12rem",height:"18rem"}} />
         </div>
     );
 }

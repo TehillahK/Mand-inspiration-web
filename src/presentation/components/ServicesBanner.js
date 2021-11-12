@@ -6,19 +6,19 @@ function Card(props) {
     const service = props.service;
     return (
         <div className={"d-flex flex-row justify-content-between shadow mb-5 bg-body rounded"}>
-            <div className={"d-flex flex-column justify-content-center  p-3 "} style={{width:"13rem"}}>
+            <div className={"d-flex flex-column justify-content-center  p-3 "} style={{width:"21rem"}}>
                 <h3>{service.name}</h3>
-                <p className="text fs-6">{service.description}</p>
-                <div className="d-grid gap-2 d-md-flex " >
-                    <Link className={"btn btn-primary"} to={"/"}>
+                <p className="card-text text-break  fs-6">{service.description}</p>
+                <div className="d-grid gap-2 d-md-flex" >
+                    <Link className={"text-center btn btn-primary text-center"}  to={"/"}>
                         Publishing
                     </Link>
-                    <Link className={"ms-1 btn btn-outline-primary"} to={"/"}>
+                    <Link className={"btn btn-outline-primary text-center"}  to={"/"}>
                         Book consultation
                     </Link>
                 </div>
             </div>
-            <img className="service-card-img img-fluid" src={service.menuImg} alt={""} style={{width:"10rem",height:"25rem",objectFit:"cover"}} />
+            <img className="service-card-img img-fluid" src={service.menuImg} alt={""} style={{width:"9rem",height:"25rem",objectFit:"cover"}} />
         </div>
     );
 }

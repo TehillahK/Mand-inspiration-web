@@ -15,7 +15,7 @@ const Services=[
         imageUrl: EditingImage,
         menuImg:EditingServiceImage,
         name:'Editing',
-        description:`Copy editing,developmental editing,proof reading, manuscript critique`
+        description:`Copy editing , developmental editing , proof reading , manuscript critique`
     },
     {
         id:3,

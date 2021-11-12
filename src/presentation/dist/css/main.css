@@ -48,6 +48,14 @@ nav a {
   font-size: small;
 }
 
+.card-text {
+  width: 100%;
+  font-weight: 400;
+  font-size: 19pt;
+  color: #5A7184;
+  margin-top: 30px;
+}
+
 footer {
   margin-top: 100px;
   display: flex;
@@ -118,8 +126,6 @@ footer .credits .copy-right {
   color: #5A7184;
   margin-top: 30px;
   margin-bottom: 60px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .text-center {

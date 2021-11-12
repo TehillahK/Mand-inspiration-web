@@ -11,7 +11,7 @@ function Content() {
             <div className={"d-md-flex  mb-3 justify-content-between "}>
                 <img
                     className="img-fluid"
-                    style={{ height: "671px", width: "508px" }}
+                    style={{ height: "671px", width: "508px",objectFit:"cover" }}
                     src={Book1}
                     alt={"20 at 60 by Mandipa Shumba book cover"}
                 />
