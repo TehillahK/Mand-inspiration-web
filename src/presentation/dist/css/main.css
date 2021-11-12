@@ -140,6 +140,11 @@ footer .credits .copy-right {
   color: white;
 }
 
+@media only screen and (max-width: 900px) {
+  .some-error {
+    padding-right: 2rem;
+  }
+}
 .banner {
   grid-column-gap: 290px;
   grid-template-columns: 400px 300px;

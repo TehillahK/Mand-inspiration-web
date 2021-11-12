@@ -8,8 +8,8 @@ const Footer = () => {
                 <h3 style={{marginBottom:"1rem"}}>Navigation</h3>
                 <Link to={"/"}>Books</Link>
                 <Link to={"/services"}>Our Services</Link>
-                <Link to={""}>About Us</Link>
-                <Link to={""}>Contact Us</Link>
+                <Link to={"/about"}>About Us</Link>
+                <Link to={"/contact-us"}>Contact Us</Link>
             </div>
             <div className={"credits"}>
                 <div className={"copy-right"}>
