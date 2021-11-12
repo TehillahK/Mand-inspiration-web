@@ -4,7 +4,7 @@ function InfoBox() {
     return (
         <div className={"d-flex flex-column justify-content-center "}>
             <h1 style={{marginBottom:"2rem"}}>Mandi Inspirations</h1>
-            <p style={{marginBottom:"4rem"}}>Only you can do it</p>
+            <p className="text fs-6 " style={{marginBottom:"4rem"}}>Only you can do it</p>
             <div className={"d-flex flex-row"}>
                 <div class="d-grid">
                     <Link to={"/services"} className={"d-flex  btn btn-primary btn-block"} >

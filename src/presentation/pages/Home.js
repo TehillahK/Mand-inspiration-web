@@ -10,7 +10,9 @@ const Home = (props) => {
                 self-publishing guide, publish with us etc to individuals and organizations around the world.`;
     return (
         <main className={"container"}>
-            <HomeBanner photoUrl={MandiPhoto} />
+            <div className="container">
+                <HomeBanner photoUrl={MandiPhoto} />
+            </div>
             <GeneralBanner
                 section={"Our Services"}
                 title={"Who are we?"}

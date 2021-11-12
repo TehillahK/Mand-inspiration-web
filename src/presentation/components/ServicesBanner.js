@@ -6,10 +6,10 @@ function Card(props) {
     const service = props.service;
     return (
         <div className={"d-flex flex-row justify-content-between shadow mb-5 bg-body rounded"}>
-            <div className={"d-flex flex-column justify-content-center  p-3 "}>
+            <div className={"d-flex flex-column justify-content-center  p-3 "} style={{width:"13rem"}}>
                 <h3>{service.name}</h3>
-                <p>{service.description}</p>
-                <div className={"buttons"}>
+                <p className="text fs-6">{service.description}</p>
+                <div >
                     <Link className={"btn btn-primary"} to={"/"}>
                         Publishing
                     </Link>
@@ -18,7 +18,7 @@ function Card(props) {
                     </Link>
                 </div>
             </div>
-            <img className="img-fluid" src={service.menuImg} alt={""} style={{width:"15rem",height:"25rem",objectFit:"cover"}} />
+            <img className="service-card-img img-fluid" src={service.menuImg} alt={""} style={{width:"10rem",height:"25rem",objectFit:"cover"}} />
         </div>
     );
 }

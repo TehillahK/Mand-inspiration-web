@@ -12,9 +12,9 @@ function BookCard(props) {
 
     return (
         <div className={"d-flex justify-content-between shadow-lg p-3 mb-5 bg-body rounded "} style={{marginBottom:"1rem"}}>
-            <div className={" d-flex flex-column justify-content-center px-2"}>
+            <div className={" d-flex flex-column justify-content-center px-2"} style={{width:"512px"}}>
                 <h2>{book.name}</h2>
-                <p>{book.description}</p>
+                <p className="text fs-6">{book.description}</p>
                 <div className={"buttons"}>
                     <button
                         type="button" 

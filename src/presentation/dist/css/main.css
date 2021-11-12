@@ -112,8 +112,8 @@ footer .credits .copy-right {
 }
 
 .text {
-  padding-right: 50px;
-  font-weight: 500;
+  width: 80%;
+  font-weight: 400;
   font-size: 19pt;
   color: #5A7184;
   margin-top: 30px;
