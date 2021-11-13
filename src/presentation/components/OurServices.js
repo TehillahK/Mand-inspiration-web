@@ -39,12 +39,12 @@ function Cards(props) {
               />
 
               <div className={"p-3  d-flex  flex-column"}>
-                <h3>Publishing</h3>
-                <p  className="card-text fs-5">
+                <h3 className="card-title">Publishing</h3>
+                <p  className="card-text text-break  fs-6 ">
                   We print and guide self publishers as self publishing has
                   become more popular
                 </p>
-                <Link to="">Learn more</Link>
+                <Link className="card-link fs-6" to="/services">Learn more</Link>
               </div>
             </div>
           </div>
@@ -60,12 +60,12 @@ function Cards(props) {
               />
 
               <div className={"p-3  d-flex  flex-column"}>
-                <h3>Editing</h3>
-                <p className="card-text fs-5 some-error">
+                <h3 className="card-title">Editing</h3>
+                <p className="card-text text-break  fs-6">
                   Copy editing,developmental editing,proof reading, manuscript
                   critique
                 </p>
-                <Link to="">Learn more</Link>
+                <Link className="card-link fs-6" to="/services">Learn more</Link>
               </div>
             </div>
           </div>
@@ -83,9 +83,9 @@ function Cards(props) {
             />
 
             <div className={"p-3  d-flex  flex-column"}>
-              <h3>Mentoring</h3>
-              <p  className="card-text fs-5">We mentor not only writers but public speakers and editors</p>
-              <Link to="">Learn more</Link>
+              <h3 className="card-title">Mentoring</h3>
+              <p  className="card-text text-break  fs-6 ">We mentor not only writers but public speakers and editors</p>
+              <Link className="card-link fs-6" to="/services">Learn more</Link>
             </div>
           </div>
         </div>

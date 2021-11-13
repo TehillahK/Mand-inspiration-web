@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import { getServices } from "../../logic/AccessServices";
 import { Link } from "react-router-dom";
+import PublishingModal from "./PublishingModal";
 
 function Card(props) {
     const service = props.service;
@@ -43,6 +44,7 @@ const ServicesBanner = () => {
     return (
         <div className={"container"}>
             <Cards services={services} />
+            <PublishingModal />
         </div>
     );
 };
