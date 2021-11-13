@@ -11,10 +11,10 @@ function Card(props) {
                 <h3>{service.name}</h3>
                 <p className="card-text text-break  fs-6">{service.description}</p>
                 <div className="d-grid gap-2 d-md-flex" >
-                    <Link className={"text-center btn btn-primary text-center"}  to={"/"}>
-                        Publishing
-                    </Link>
-                    <Link className={"btn btn-outline-primary text-center"}  to={"/"}>
+                    <button  type="button" data-bs-toggle="modal" data-bs-target="#myModal" className={"text-center btn btn-primary text-center"}  >
+                        {service.name}
+                    </button>
+                    <Link   className={"btn btn-outline-primary text-center"}  to={"/"}>
                         Book consultation
                     </Link>
                 </div>
@@ -44,7 +44,7 @@ const ServicesBanner = () => {
     return (
         <div className={"container"}>
             <Cards services={services} />
-            <PublishingModal />
+           
         </div>
     );
 };
