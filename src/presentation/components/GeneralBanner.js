@@ -9,7 +9,7 @@ const GeneralBanner = (props) => {
             {props.text && <p className={"text fs-5 "}>{props.text}</p>}
             {props.photoUrl && (
                 <img
-                    className={"img-fluid page-cover center"}
+                    className={" page-cover img-fluid "}
                     src={AboutPic}
                     alt={"people in a meeting"}
                     style={{ margin: "auto" }}

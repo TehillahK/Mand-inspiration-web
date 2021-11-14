@@ -25,3 +25,16 @@ $gap:3rem;
   margin-top: 1rem;
    
 }
+
+.service-card-img{
+  height: "25rem";
+  width: "10rem";
+  object-fit: "cover" ;
+}
+@media only screen and (max-width: 900px) {
+  .service-card-img{
+    height: "10rem";
+    width: "25rem";
+    object-fit: "cover" ;
+  }
+}

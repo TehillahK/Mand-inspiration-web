@@ -51,11 +51,24 @@ nav a {
 .card-text {
   width: 100%;
   font-weight: 400;
-  font-size: 19pt;
+  font-size: 10pt;
   color: #5A7184;
-  margin-top: 30px;
+  margin-top: 1rem;
 }
 
+.service-card-img {
+  height: "10rem";
+  width: "25rem";
+  object-fit: "cover";
+}
+
+@media only screen and (max-width: 900px) {
+  .service-card-img {
+    height: "10rem";
+    width: "25rem";
+    object-fit: "cover";
+  }
+}
 footer {
   margin-top: 100px;
   display: flex;
@@ -175,6 +188,12 @@ footer .credits .copy-right {
   height: 31.25rem;
   object-fit: cover;
   margin-right: 15rem;
+}
+
+.service-card-img {
+  height: "10rem";
+  width: "25rem";
+  object-fit: "cover";
 }
 
 @media only screen and (max-width: 900px) {
