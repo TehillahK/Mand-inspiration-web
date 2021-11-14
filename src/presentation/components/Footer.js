@@ -14,7 +14,7 @@ const Footer = () => {
             <div className={"credits"}>
                 <div className={"copy-right"}>
                     <p>
-                        Copyright (c) 2021 Mandi Inspiration
+                        Copyright &copy; 2021 Mandi Inspiration
                         <br /> All Rights Reserved
                     </p>
                 </div>
