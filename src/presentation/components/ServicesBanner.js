@@ -5,16 +5,18 @@ import PublishingModal from "./PublishingModal";
 
 function Card(props) {
     const service = props.service;
+    const name = service.name;
+    const modal =`#${name.toLowerCase()}Modal`;
     return (
         <div className={"d-flex flex-row justify-content-between shadow mb-5 bg-body rounded"}>
             <div className={"d-flex flex-column justify-content-center  p-3 "} style={{width:"21rem"}}>
                 <h3>{service.name}</h3>
                 <p className="card-text text-break  fs-6">{service.description}</p>
                 <div className="d-grid gap-2 d-md-flex" >
-                    <button  type="button" data-bs-toggle="modal" data-bs-target="#myModal" className={"text-center btn btn-primary text-center"}  >
+                    <button  type="button" data-bs-toggle="modal" data-bs-target={modal} className={"text-center btn btn-primary text-center"}  >
                         {service.name}
                     </button>
-                    <Link   className={"btn btn-outline-primary text-center"}  to={"/"}>
+                    <Link className={"btn btn-outline-primary text-center"}  to={"/contact-us"}>
                         Book consultation
                     </Link>
                 </div>
