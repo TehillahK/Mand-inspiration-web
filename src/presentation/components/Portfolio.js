@@ -22,7 +22,7 @@ function Content() {
                 />
             </div>
             <div style={{ marginTop: "100px" }} className={"d-flex justify-content-center"}>
-                <Link className={"btn btn-primary"} to={"/"}>
+                <Link className={"btn btn-primary"} to={"/book-store"}>
                     Learn More
                 </Link>
             </div>
